@@ -600,3 +600,8 @@ section {
 .socials-icon {
     fill: var(--cloud, #f4f4fd);
 }
+
+.socials-list {
+    display: flex;
+    gap: 16px;
+}
