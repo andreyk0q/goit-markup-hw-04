@@ -65,12 +65,12 @@ section {
 
 /* ======== HEADER ======== */
 .header {
-    background-color: #ffffff;
     border-bottom: 1px solid #e7e9fc;
     box-shadow:
         0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+    background-color: #ffffff;
 }
 
 .header-container {
@@ -93,6 +93,7 @@ section {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    display: inline-block;
 }
 
 .logo .accent {
@@ -100,6 +101,11 @@ section {
 }
 
 /* Навігація */
+.nav {
+    display: flex;
+    align-items: center;
+}
+
 .nav-list {
     display: flex;
     gap: 40px;
@@ -107,12 +113,13 @@ section {
 
 .nav-link {
     position: relative;
+    display: inline-block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -137,6 +144,10 @@ section {
 }
 
 /* Контакти */
+address {
+    font-style: normal;
+}
+
 .contacts-list {
     display: flex;
     gap: 40px;
@@ -149,7 +160,7 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transition: color 0.3s ease;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
