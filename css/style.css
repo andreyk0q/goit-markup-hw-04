@@ -483,7 +483,6 @@ section {
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
-    margin-left: 156px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -504,14 +503,13 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    margin-left: 156px;
 }
 
-.social-container {
+.footer-container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-        padding-top: 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 120px;
 }
 
 .social-title {
