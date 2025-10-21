@@ -472,8 +472,8 @@ section {
 }
 
 .footer-container {
-    display: flex;
-    align-items: baseline;
+    justify-content: initial;
+    
 }
 
 
