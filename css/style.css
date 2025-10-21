@@ -476,9 +476,6 @@ section {
     align-items: baseline;
 }
 
-.footer-info {
-    margin-right: 120px;
-}
 
 .footer-logo {
     display: inline-block;
@@ -569,4 +566,12 @@ section {
 
 .social-list {
     gap: 24px;
+}
+
+section>*:first-child {
+    margin-top: 0;
+}
+
+section>*:last-child {
+    margin-bottom: 0;
 }
