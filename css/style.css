@@ -106,8 +106,8 @@ section {
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 1px 6px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -218,7 +218,7 @@ section {
     margin: 0 auto;
 }
 
-.btn-anim{
+.btn-anim {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -303,9 +303,9 @@ section {
     padding: 120px 0;
     margin-top: 0;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-title {
@@ -330,8 +330,8 @@ section {
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-info {
@@ -474,10 +474,11 @@ section {
 .footer-container {
     display: flex;
     align-items: baseline;
+    gap: 120px;
 }
 
 .footer-info {
-    margin-right: 120px;
+    margin-right: 0;
 }
 
 .footer-logo {
@@ -503,13 +504,6 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 120px;
 }
 
 .social-title {
