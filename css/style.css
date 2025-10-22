@@ -572,3 +572,7 @@ section>*:first-child {
 section>*:last-child {
     margin-bottom: 0;
 }
+
+.footer-info:not(:last-child) {
+    margin-right: 120px;
+}
